@@ -1,0 +1,1370 @@
+{
+  "paragraphs": [
+    {
+      "index": 2,
+      "style": "Normal",
+      "text": "SCHOOL OF ARCHITECTURE, COMPUTING AND ENGINEERING"
+    },
+    {
+      "index": 3,
+      "style": "Normal",
+      "text": "Department of Engineering and Computing"
+    },
+    {
+      "index": 5,
+      "style": "Normal",
+      "text": "Personalised Nutrition recommendations using XAI and Gut-Microbiome data"
+    },
+    {
+      "index": 6,
+      "style": "Normal",
+      "text": "Zoya shaikh"
+    },
+    {
+      "index": 7,
+      "style": "Normal",
+      "text": "U2576800"
+    },
+    {
+      "index": 12,
+      "style": "Normal",
+      "text": "A report submitted in part fulfilment of the degree of"
+    },
+    {
+      "index": 13,
+      "style": "Normal",
+      "text": "BSc (Hons) in Computer Science"
+    },
+    {
+      "index": 14,
+      "style": "Normal",
+      "text": "Supervisor: DHARA PAREKH"
+    },
+    {
+      "index": 16,
+      "style": "Normal",
+      "text": "CN6000"
+    },
+    {
+      "index": 19,
+      "style": "Normal",
+      "text": "30 January 2026"
+    },
+    {
+      "index": 20,
+      "style": "Unnumbered Heading 1",
+      "text": "Abstract"
+    },
+    {
+      "index": 21,
+      "style": "Normal",
+      "text": "Write your abstract here. Remember, an abstract is 500 words of less. It is NOT an introduction to your project. It has to have three elements: Purpose of this project, how you did the project, and what is the outcome of this project. You do not cite sources in your abstract. It is likely to be the last thing you write."
+    },
+    {
+      "index": 25,
+      "style": "Unnumbered Heading 1",
+      "text": "Acknowledgments"
+    },
+    {
+      "index": 26,
+      "style": "Normal",
+      "text": "Here you can thank the people, including your supervisor, who have helped you with your project."
+    },
+    {
+      "index": 30,
+      "style": "Normal",
+      "text": "C"
+    },
+    {
+      "index": 31,
+      "style": "Normal",
+      "text": "ontents"
+    },
+    {
+      "index": 35,
+      "style": "toc 1",
+      "text": "Abstract\t2"
+    },
+    {
+      "index": 36,
+      "style": "toc 1",
+      "text": "Acknowledgments\t3"
+    },
+    {
+      "index": 37,
+      "style": "toc 1",
+      "text": "Chapter 1:\tIntroduction\t5"
+    },
+    {
+      "index": 38,
+      "style": "toc 2",
+      "text": "1.1\tSub-heading\t5"
+    },
+    {
+      "index": 39,
+      "style": "toc 1",
+      "text": "Chapter 2:\tLiterature Review\t6"
+    },
+    {
+      "index": 40,
+      "style": "toc 2",
+      "text": "2.1\tSecond Level Headings\t6"
+    },
+    {
+      "index": 41,
+      "style": "toc 1",
+      "text": "Chapter 3:\tAdditional Sections\t7"
+    },
+    {
+      "index": 42,
+      "style": "toc 1",
+      "text": "Chapter 4:\tCode\t8"
+    },
+    {
+      "index": 43,
+      "style": "toc 2",
+      "text": "4.1\tSource Code\t8"
+    },
+    {
+      "index": 44,
+      "style": "toc 1",
+      "text": "Chapter 5:\tEvaluation\t9"
+    },
+    {
+      "index": 45,
+      "style": "toc 1",
+      "text": "Chapter 6:\tConclusion\t10"
+    },
+    {
+      "index": 46,
+      "style": "toc 1",
+      "text": "References\t11"
+    },
+    {
+      "index": 47,
+      "style": "toc 1",
+      "text": "Appendix A - Initial Project Proposal\t12"
+    },
+    {
+      "index": 48,
+      "style": "toc 1",
+      "text": "Appendix B - Final Project Proposal\t13"
+    },
+    {
+      "index": 49,
+      "style": "toc 1",
+      "text": "Appendix C - Application for the Approval of Research Activities to be Attached (if needed)\t14"
+    },
+    {
+      "index": 50,
+      "style": "toc 1",
+      "text": "Appendix D – Client Consent Form to be Attached (if needed)\t15"
+    },
+    {
+      "index": 51,
+      "style": "toc 1",
+      "text": "Additional Appendices (as needed)\t16"
+    },
+    {
+      "index": 55,
+      "style": "Heading 1",
+      "text": "Introduction"
+    },
+    {
+      "index": 56,
+      "style": "Heading 2",
+      "text": "Introduction"
+    },
+    {
+      "index": 57,
+      "style": "Normal",
+      "text": "The increasing global impact of diet-related chronic illnesses, such as obesity, type 2 diabetes (T2D), and cardiovascular disease, emphasises the limitations of traditional \"one-size-fits-all\" nutritional regimens. Extensive data suggest that people have highly different metabolic reactions to the same foods due to complicated interactions between genetic, biological, lifestyle, and environmental factors (Brankovic and Hendrie, 2025). This awareness has sparked increased interest in Personalised Nutrition (PN), a method of tailoring dietary recommendations to an individual's biological and metabolic profile rather than depending on nationwide standards."
+    },
+    {
+      "index": 59,
+      "style": "Normal",
+      "text": "The human gut microbiota (GM) is an important component of personalised nutrition, since it regulates digestion, food absorption, immunity control, and glucose metabolism (Xie et al., 2024). The gut microbiome generates metabolites such as short-chain fatty acids (SCFAs), which impact disease and glycaemic regulation, making microbiome profiling a critical technique for predicting individual post-meal glucose responses (Xie et al., 2024). Recent breakthroughs in AI-driven nutrition research have used microbiome profiles to explain why two people can react extremely differently to the same diet (Brankovic and Hendrie, 2025). However, combining the huge amount of data required for tailored nutrition remains a significant technical issue. Relevant information frequently includes high-dimensional microbiome sequencing data, continuous physiological measurements such as continuous glucose monitoring (CGM), blood pressure readings, lifestyle habits, and extensive nutritional intake records (Bandi et al., 2023). Artificial Intelligence (AI), namely Machine Learning (ML) and Deep Learning (DL), provides the computational capacity required to process such massive, complex datasets and deliver meaningful, flexible results."
+    },
+    {
+      "index": 61,
+      "style": "Normal",
+      "text": "Many AI models function as \"black boxes,\" producing precise results with little interpretability despite their capacity for prediction. Adoption of AI-driven technologies in actual healthcare settings is challenging due to this lack of transparency, which erodes user and clinician confidence (Bandi et al., 2023). Explainable Artificial Intelligence (XAI) approaches, which improve transparency by offering concise biological explanations for model predictions, are incorporated into the current work to solve this difficulty. AI-driven nutrition tools are transformed by XAI from unreadable systems into reliable transparent decision-support systems."
+    },
+    {
+      "index": 63,
+      "style": "Heading 2",
+      "text": "Purpose of this project"
+    },
+    {
+      "index": 64,
+      "style": "Normal",
+      "text": "The goal of this project is to create an explainable AI-based system that uses personal health data and gut microbiome data to produce tailored food recommendations. In contrast to current nutrition guidelines, which offer generalised recommendations, the goal of this initiative is to provide individualised, accurate, data-driven dietary insights. Additionally, the system will help people, nutritionists, and health care professionals to better understand how biological aspects contribute to each advice through using explainability methodologies (Bandi et al., 2023)."
+    },
+    {
+      "index": 65,
+      "style": "Heading 2",
+      "text": "Problem Statement"
+    },
+    {
+      "index": 66,
+      "style": "Normal",
+      "text": "Personalised nutrition has becoming increasingly common, yet there are still significant obstacles to its adoption. Although gut microbiota significantly influences individual metabolic and glycaemic responses, many current systems do not fully integrate microbiome data (Xie et al., 2024; Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 68,
+      "style": "Normal",
+      "text": "Although deep learning models can generate extremely accurate predictions, they frequently lack interpretability, which lowers user confidence and restricts clinical application (Bandi et al., 2023). Because of this, users are unable to pinpoint the precise elements that have influenced a particular dietary suggestion, such as microbial species, glucose patterns, or nutritional profiles (Bandi et al., 2023)."
+    },
+    {
+      "index": 70,
+      "style": "Normal",
+      "text": "Furthermore, because these datasets are heterogeneous, integrating multi-modal data—such as microbiome sequencing, continuous physiological signals, and nutritional intake records—remains computationally challenging (Bandi et al., 2023; Brankovic and Hendrie, 2025). In order to offer individualised dietary recommendations, an integrated AI model that can analyse complicated biological data and produce accessible, understandable, and reliable outputs is therefore required."
+    },
+    {
+      "index": 71,
+      "style": "Heading 2",
+      "text": "Aim of the project"
+    },
+    {
+      "index": 72,
+      "style": "Normal",
+      "text": "The project's goal is to create an explainable AI-based personalised nutrition system that uses gut microbiome and individual health data to recommend foods."
+    },
+    {
+      "index": 73,
+      "style": "Heading 2",
+      "text": "Objectives of the project"
+    },
+    {
+      "index": 75,
+      "style": "List Paragraph",
+      "text": "To analyse current research on explainable AI, gut microbiome science, tailored nutrition, and AI models."
+    },
+    {
+      "index": 76,
+      "style": "List Paragraph",
+      "text": "To collect and prepare nutritional, physiological, and microbiome data for model development."
+    },
+    {
+      "index": 77,
+      "style": "List Paragraph",
+      "text": "To develop and put into use a predictive model based on LSTM for customised dietary responses."
+    },
+    {
+      "index": 78,
+      "style": "List Paragraph",
+      "text": "To incorporate Explainable AI techniques for transparent model output interpretation."
+    },
+    {
+      "index": 79,
+      "style": "List Paragraph",
+      "text": "To evaluate the accuracy, reliability, and understanding of the model."
+    },
+    {
+      "index": 80,
+      "style": "List Paragraph",
+      "text": "Discussion about the results, limitations, and possibilities for future development."
+    },
+    {
+      "index": 82,
+      "style": "Heading 2",
+      "text": "Structure of the project"
+    },
+    {
+      "index": 83,
+      "style": "List Paragraph",
+      "text": "Chapter 1 – Introduction: Background, Purpose of the Project, Problem Statement, Aim of the Project, Objectives of the Project."
+    },
+    {
+      "index": 84,
+      "style": "List Paragraph",
+      "text": "Chapter 2 – Literature Review:"
+    },
+    {
+      "index": 85,
+      "style": "List Paragraph",
+      "text": "Chapter 3 – Methodology:"
+    },
+    {
+      "index": 86,
+      "style": "List Paragraph",
+      "text": "Chapter 4 – Results:"
+    },
+    {
+      "index": 87,
+      "style": "List Paragraph",
+      "text": "Chapter 5 – Discussion:"
+    },
+    {
+      "index": 88,
+      "style": "List Paragraph",
+      "text": "Chapter 6 – Conclusion:"
+    },
+    {
+      "index": 92,
+      "style": "Heading 1",
+      "text": "Literature Review"
+    },
+    {
+      "index": 93,
+      "style": "Heading 2",
+      "text": "Introduction"
+    },
+    {
+      "index": 94,
+      "style": "Normal",
+      "text": "Artificial intelligence`s (AI ) quick development has drastically changed healthcare, especially in the area of customised nutrition. Conventional dietary recommendations are primarily population-based and do not take individual differences in metabolism, lifestyle, and biological factors into consideration. According to recent studies, the gut microbiota plays a crucial role in determining an individual's nutritional responses, including immunological regulation, metabolism, digestion, and disease risk."
+    },
+    {
+      "index": 95,
+      "style": "Normal",
+      "text": "Therefore, combining gut microbiome data with AI-powered models offers a chance to provide highly customised dietary advice. But the growing intricacy of AI models has sparked questions about trust and transparency, particularly in healthcare settings. Therefore, Explainable Artificial Intelligence (XAI) has become a crucial element to guarantee understanding, accountability, and ethical implementation of AI-based nutrition systems. This chapter analyses the results of research on AI explanations in healthcare, gut microbiome-based dietary modelling, and AI-powered personalised nutrition. Additionally, it highlights research gaps and restrictions that support the necessity of the proposed study."
+    },
+    {
+      "index": 96,
+      "style": "Heading 2",
+      "text": "Personalised Nutrition with Artificial Intelligence"
+    },
+    {
+      "index": 97,
+      "style": "Normal",
+      "text": "The accuracy of machine learning models for tailored dietary recommendations has been extensively proven in recent years (Zeevi et al., 2015; Ben-Yacov et al., 2021; Bul et al., 2023). Nutrition science has made significant use of AI to transition from static dietary recommendations to personalised and adaptive systems. Complex datasets comprising dietary consumption, physiological measures, and behavioural data have been analysed using machine learning approaches like supervised learning, neural networks, and ensemble models. Based on personal traits, these algorithms seek to forecast health outcomes like illness risk, weight change, and glycaemic response."
+    },
+    {
+      "index": 99,
+      "style": "Normal",
+      "text": "Basic research in personalised nutrition shows that machine learning models surpass standard dietary recommendations by effectively predicting individual postprandial glycaemic responses using personal and microbiome data (Zeevi et al., 2015). This study shows that people respond differently to identical meals, exposing the shortcomings of population-based dietary guidelines. Subsequent research expanded on this methodology by including additional health indicators such as lipid profiles, insulin sensitivity, and lifestyle factors, demonstrating the efficacy of AI-powered personalised dietary therapies (Ben-Yacov et al., 2021)."
+    },
+    {
+      "index": 101,
+      "style": "Normal",
+      "text": "Many AI-based nutrition systems rely on complex black-box models that are difficult to understand, despite these promising outcomes. High predictive accuracy is useful, but the lack of transparency limits clinical adoption and presents ethical issues because consumers and medical professionals may find it difficult to comprehend the reasoning behind dietary recommendations (Bul et al., 2023)."
+    },
+    {
+      "index": 104,
+      "style": "Heading 2",
+      "text": "The Gut-Microbiome Role in Nutrition and Health"
+    },
+    {
+      "index": 105,
+      "style": "Normal",
+      "text": "The link between gut microbiota composition and individual dietary response has been extensively investigated in clinical and nutritional studies (Zeevi et al., 2015; Rein et al., 2022; Ben-Yacov et al., 2023). The gut microbiome is the varied group of microorganisms found in the human gastrointestinal system. A lot of research has demonstrated its importance in food metabolism, immunological function, and disease progression. Variations in microbial composition have been linked to obesity, type 2 diabetes, inflammatory bowel disease, and cardiovascular problems."
+    },
+    {
+      "index": 106,
+      "style": "Normal",
+      "text": "According to studies, the gut microbiota has a significant impact on individual responses to dietary intake, with some microbial profiles associated with positive metabolic outcomes and others associated with inflammation and poor glucose regulation (Zeevi et al., 2015; Ben-Yacov et al., 2021; Rein et al., 2022). This diversity explains why people who eat the same food may have drastically different health outcomes (Zeevi et al., 2015; Bul et al., 2023)."
+    },
+    {
+      "index": 107,
+      "style": "Normal",
+      "text": "Recent advances in microbiome analysis have allowed for large-scale study of microbiome data, making it possible to incorporate these insights into AI models (Ben-Yacov et al., 2021). Several studies have linked microbiome features with clinical and nutritional data to tailor nutrition recommendations, resulting in higher prediction accuracy for metabolic outcomes (Zeevi et al., 2015; Ben-Yacov et al., 2021; Joshi et al., 2023). However, microbiome-based nutrition research confronts several problems, including high data dimensionality, inter-individual variability, and a lack of long-term datasets, with many studies prioritising prediction performance above interpretability and real-world applicability (Bul et al., 2023)."
+    },
+    {
+      "index": 108,
+      "style": "Heading 2",
+      "text": "Machine Learning Methods for Microbiome-Based Nutrition Models"
+    },
+    {
+      "index": 109,
+      "style": "Normal",
+      "text": "Previous research on microbiome-based nutrition modelling has used a variety of supervised and ensemble learning techniques, emphasising both interpretability issues and performance advantages (Ben-Yacov et al., 2021; Joshi et al., 2023). Random forests, support vector machines, gradient boosting, and deep learning architectures are often employed techniques."
+    },
+    {
+      "index": 110,
+      "style": "Normal",
+      "text": "Although deep learning models are frequently attacked for their lack of transparency, which restricts their use for clinical decision-making, they can achieve good prediction accuracy when adequate data is provided (Bul et al., 2023; Joshi et al., 2023). According to Ben-Yacov et al. (2021) and Bul et al. (2023), tree-based models, on the other hand, offer limited feature importance metrics but are still unable to provide completely interpretable explanations appropriate for healthcare applications."
+    },
+    {
+      "index": 111,
+      "style": "Normal",
+      "text": "There is still a lack of consensus on the perfect methods for incorporating microbiome data into AI-driven nutrition systems, despite the proposal of mixed methods that combine statistical analysis and machine learning to balance performance and interpretability (Joshi et al., 2023; Bul et al., 2023)."
+    },
+    {
+      "index": 113,
+      "style": "Heading 2",
+      "text": "XAI In Healthcare"
+    },
+    {
+      "index": 114,
+      "style": "Normal",
+      "text": "Recent healthcare literature has highlighted the significance of explainability in clinical AI systems, especially when AI-driven recommendations affect patient behaviour and medical decision-making (Bul et al., 2023; Jin et al., 2024). The term \"explainable AI\" describes methods intended to improve trust, accountability, and regulatory compliance by making AI model decisions clear to people."
+    },
+    {
+      "index": 115,
+      "style": "Normal",
+      "text": "According to Bul et al. (2023) and Jin et al. (2024), XAI approaches like SHAP and LIME are frequently used to understand complex machine learning models by determining the contribution of particular attributes to model predictions. Explainable AI supports informed decision-making in nutrition and healthcare applications by helping stakeholders comprehend how particular microbial taxa or dietary components impact recommendations (Bul et al., 2023; Ben-Yacov et al., 2021)."
+    },
+    {
+      "index": 117,
+      "style": "Normal",
+      "text": "According to recent research, explainable models assist in detecting bias and problems with data quality while also increasing user acceptability and confidence (Bul et al., 2023; Jin et al., 2024). However, there is still little integration of XAI into microbiome-based nutrition systems, and many studies prioritise predicting accuracy above transparency (Bul et al., 2023)."
+    },
+    {
+      "index": 119,
+      "style": "Heading 2",
+      "text": "Future Direction for AI in PN(Personal Nutrition)"
+    },
+    {
+      "index": 120,
+      "style": "Normal",
+      "text": "Future developments in artificial intelligence will increasingly focus on solving current limits in order to create flexible, trustworthy, and clinically useful personalised nutrition (PN) systems (Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 122,
+      "style": "Normal",
+      "text": "Federated Learning (FL): By allowing AI models to be trained across decentralised datasets, such as several hospitals or research centres, federated learning offers a promising solution to privacy, scalability, and generalisation issues without requiring sensitive data to be centrally shared (Brankovic and Hendrie, 2025; Probul et al., 2024). FL has the potential to enhance model robustness and generalisability by increasing the effective number and diversity of training data, especially in delicate healthcare domains (Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 124,
+      "style": "Normal",
+      "text": "Different Models: Combining multiple sources of data, such as genetic, microbiome, nutritional, and lifestyle data, into cohesive multimodal frameworks is another new approach (Brankovic and Hendrie, 2025). By understanding the intricate and dynamic relationships that affect individual health outcomes, such holistic approaches allow for more precise and practical recommendations."
+    },
+    {
+      "index": 126,
+      "style": "Normal",
+      "text": "Adaptive and Dynamic Guidance: Complex and changing environments where optimal solutions change over time are especially well-suited for advanced machine learning approaches like reinforcement learning (RL) (Forman et al., 2019; Mulani et al., 2020). RL allows systems to move beyond static, one-size-fits-all advice in the context of personalised nutrition by continuously adapting dietary recommendations based on continuous input and evolving health data (Mulani et al., 2020; Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 129,
+      "style": "Heading 2",
+      "text": "2.7 Gaps in the Literature"
+    },
+    {
+      "index": 130,
+      "style": "Normal",
+      "text": "Although technology advances, some difficulties must be overcome before AI-powered PN can be used widely and fairly in clinical settings (Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 131,
+      "style": "No Spacing",
+      "text": "Gap 1: Security and Generalisation (Reliability Gap)"
+    },
+    {
+      "index": 133,
+      "style": "No Spacing",
+      "text": "The poor predictability of current AI models across various populations is a significant gap in the field. When trained on local or homogeneous datasets, many microbiome-based personalised nutrition systems perform well, but when applied to independent cohorts from diverse geographic or demographic backgrounds, they lose accuracy (Reitmeier et al., 2020; Probul et al., 2024). According to Brankovic and Hendrie (2025), this lack of cross-cohort robustness reveals a glaring deficiency in empirical validation utilising representative and heterogeneous datasets, which is crucial for trustworthy clinical implementation. This study aims to improve accuracy among individuals by evaluating personalised nutrition models utilising varied microbiome and health-related data in order to overcome this restriction."
+    },
+    {
+      "index": 135,
+      "style": "Normal",
+      "text": "Gap 2: Efficiency, Collaboration, and Data Integrity"
+    },
+    {
+      "index": 136,
+      "style": "Normal",
+      "text": "The availability and flexibility of multi-source data represent another significant gap. In order to produce correct recommendations, effective personalised nutrition systems must include gut microbiome, multi-omics, lifestyle, and clinical data (Özdemir and Kolker, 2016; Adams et al., 2020). However, scalability, reproducibility, and cross-study comparison are severely impacted by the lack of defined types of data and accessible facilities (Tsolakidis et al., 2024). A significant limitation of current research is the absence of a completely integrated framework in the literature that can facilitate smooth data collection across these areas at scale (Brankovic and Hendrie, 2025). The proposed research fills this gap by using an integrated data architecture that integrates physiological, dietary, and microbial data into one research system."
+    },
+    {
+      "index": 137,
+      "style": "Normal",
+      "text": "Gap 3: Limited Use of Explainable AI in Microbiome-Based PN Systems"
+    },
+    {
+      "index": 138,
+      "style": "Normal",
+      "text": "Explainable AI (XAI) methods are being used more and more in healthcare, although they are still not widely used in microbiome-driven personalised nutrition systems. Medical reliability and ethical acceptability are impacted by the fact that many current models emphasise predictive performance while providing a lack of transparency (Bul et al., 2023; Joshi et al., 2023). Since explanation is crucial for assisting clinical decision-making and assuring responsibility in AI-powered healthcare applications, this constitutes an important gap in the literature. In order to improve transparency, develop trust, and support ethical use in personalised nutrition advice, this work integrates explainable artificial intelligence (AI) methods."
+    },
+    {
+      "index": 139,
+      "style": "Normal",
+      "text": "In every aspect of these limitations, the importance of an AI-driven personalised nutrition system that incorporates gut microbiome data into an explainable machine learning framework, guaranteeing prediction accuracy, transparency, and ethical compliance for practical application in healthcare."
+    },
+    {
+      "index": 140,
+      "style": "Normal",
+      "text": "Comparing Current AI-Powered Personalised Nutrition Research Papers"
+    },
+    {
+      "index": 141,
+      "style": "Normal",
+      "text": "The analysis indicates that current personalised nutrition systems lack an organised framework that integrates various health data sources, ensures consistency across populations, and generates clear, understandable predictions. This project aims to close these gaps by proposing an explainable AI-based personalised nutrition system that integrates lifestyle, clinical, and gut microbiome data to increase clinical relevance, scalability, and confidence."
+    },
+    {
+      "index": 142,
+      "style": "Heading 2",
+      "text": "2.8 Chapter Summary"
+    },
+    {
+      "index": 143,
+      "style": "Normal",
+      "text": "This chapter analysed important research on AI-driven personalised nutrition, with particular attention to explainable AI in healthcare, gut microbiome studies, and machine learning techniques. Previous research (e.g., Zeevi et al., 2015; Adams et al., 2020) shows that AI can enable customised dietary advice; nonetheless, the review found recurring gaps in related studies. Reitmeier et al. (2020), Bul et al. (2023), Brankovic and Hendrie (2025), and other previous studies show limited predictability across populations, incomplete collection of microbiome and health data, and insufficient use of explainable AI to enhance transparency and ethical decision-making. The methodological approach used in this project is strongly influenced by these limitations, which underline the necessity for an explainable and integrated AI-based personalised nutrition system."
+    },
+    {
+      "index": 144,
+      "style": "Heading 1",
+      "text": "Project Methodology"
+    },
+    {
+      "index": 145,
+      "style": "Heading 2",
+      "text": "Introduction"
+    },
+    {
+      "index": 146,
+      "style": "Normal",
+      "text": "This chapter describes how an explainable artificial intelligence (XAI)-based personalised nutrition system was designed, implemented, and evaluated utilising individual health data and gut microbiome information. The methodological decisions were influenced by the research gaps identified in Chapter 2, particularly the limited integration of heterogeneous biological data, the lack of transparency in existing AI-driven nutrition systems, and concerns about generalisability and clinical trust (Bul et al., 2023; Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 148,
+      "style": "Normal",
+      "text": "A method of quantitative research was used along with an Agile software development life cycle (SDLC) since personalised nutrition research is based on data and exploratory. Data collection, preprocessing, predictive modelling, explainability integration, and quantitative assessment make up the methodology's organised workflow. According to Amershi et al. (2019), this methodology ensures methodological accuracy, reliability, and alignment with best practices in machine learning research focused on healthcare."
+    },
+    {
+      "index": 149,
+      "style": "Heading 2",
+      "text": "Research Methodology Approach"
+    },
+    {
+      "index": 150,
+      "style": "Normal",
+      "text": "This study uses a combination methodological approach that combines real-world system implementation with theoretical analysis. Theoretically, current research in explainable AI, machine learning in healthcare, gut microbiome characterisation, and personalised nutrition was examined by a systematic assessment of peer-reviewed literature. Model selection, explainability techniques, and evaluation standards were all directly influenced by the review's conclusions (Joshi et al., 2023; Jin et al., 2024)."
+    },
+    {
+      "index": 152,
+      "style": "Normal",
+      "text": "In practical terms, the project required developing an AI-powered system capable of assessing microbiome, nutritional, and physiological data and generating tailored dietary recommendations. The system was created to simulate postprandial metabolic responses while offering interpretable explanations for its predictions. This combined theoretical-practical approach assures that the proposed solution is both scientifically sound and useful in real-world personalised nutrition scenarios."
+    },
+    {
+      "index": 153,
+      "style": "Heading 2",
+      "text": "Methodology: Software Development Life Cycle ( SDLC)"
+    },
+    {
+      "index": 154,
+      "style": "Normal",
+      "text": "3.3.1 SDLC Methodology: Agile"
+    },
+    {
+      "index": 155,
+      "style": "Normal",
+      "text": "An Agile software development life cycle (SDLC) methodology was adopted for this project. This option was taken because the project uses a data-driven, research-focused methodology, and as knowledge of the issue grew, so did the requirements. Agile is especially well-suited for machine learning development since it necessitates iterative testing, assessment, and improvement (Sommerville, 2016)."
+    },
+    {
+      "index": 156,
+      "style": "Normal",
+      "text": "Traditional methodologies, such as Waterfall or SSADM, require fixed requirements at the initial stages, making them unsuitable for machine learning systems. Agile emphasises iterative development, continuous evaluation, and gradual improvement, making it suitable for AI-driven healthcare solutions (Sommerville, 2016; Amershi et al., 2019)."
+    },
+    {
+      "index": 157,
+      "style": "Normal",
+      "text": "3.3.2 SDLC Method: Kanban"
+    },
+    {
+      "index": 158,
+      "style": "Normal",
+      "text": "A Kanban-based approach was used to manage development tasks within the Agile SDLC. Since only one developer was working on the project and formal sprint-based frameworks were not needed, Kanban was chosen as a flexible, lightweight task management method. Throughout the development lifecycle, tasks were arranged into well-defined stages to facilitate ongoing progress monitoring and effective planning."
+    },
+    {
+      "index": 160,
+      "style": "Normal",
+      "text": "Kanban-style stages were used to arrange the tasks, which included:"
+    },
+    {
+      "index": 161,
+      "style": "List Paragraph",
+      "text": "Data preparation and preprocessing"
+    },
+    {
+      "index": 162,
+      "style": "List Paragraph",
+      "text": "Model training and development"
+    },
+    {
+      "index": 163,
+      "style": "List Paragraph",
+      "text": "Explainability analysis"
+    },
+    {
+      "index": 164,
+      "style": "List Paragraph",
+      "text": "Evaluation and improvement"
+    },
+    {
+      "index": 165,
+      "style": "Normal",
+      "text": "This method allows ongoing progress tracking and effective prioritising throughout the development process. Kanban was used purely for development management and had no impact on the research evaluation approach."
+    },
+    {
+      "index": 167,
+      "style": "Heading 2",
+      "text": "Field Research Approach"
+    },
+    {
+      "index": 168,
+      "style": "Normal",
+      "text": "This project uses a field research methodology to assess the efficacy of the suggested explainable artificial intelligence (XAI)-based personalised nutrition system. Using statistical analysis and numerical data, the evaluation focuses on objective performance assessment. This method guarantees that conclusions are grounded in quantifiable results rather than subjective interpretation, which is crucial for AI research focused on healthcare."
+    },
+    {
+      "index": 169,
+      "style": "Normal",
+      "text": "3.4.1 Supporting Research with a Literature Review"
+    },
+    {
+      "index": 170,
+      "style": "Normal",
+      "text": "This project's theoretical structure was developed by a methodical examination of research papers that went through peer review. To determine current approaches, constraints, and research gaps, papers on AI-driven personalised nutrition, gut microbiome modelling, and explainable artificial intelligence in healthcare were examined (Zeevi et al., 2015; Joshi et al., 2023)."
+    },
+    {
+      "index": 171,
+      "style": "Normal",
+      "text": "Key design decisions, such as dataset selection, predictive model selection, explainability requirements, and evaluation criteria, were directly influenced by the findings of the literature research. The literature review does not make up for the field research methodology, even if it provides important context and justification. Instead, by basing methodological decisions on proven research, it facilitates the quantitative assessment of the suggested system (Bul et al., 2023)."
+    },
+    {
+      "index": 172,
+      "style": "Normal",
+      "text": "3.4.2 Method of Quantitative Research"
+    },
+    {
+      "index": 173,
+      "style": "Normal",
+      "text": "For this research, a quantitative research methodology was used. Because the study assesses numerical physiological, nutritional, and microbiome-related data and uses objective statistical criteria to determine system performance, quantitative analysis is acceptable."
+    },
+    {
+      "index": 174,
+      "style": "Normal",
+      "text": "Quantitative methods are frequently employed in AI-based healthcare systems to verify system efficacy, analyse feature contributions, measure predictive accuracy, and evaluate model reliability (Amershi et al., 2019; Jin et al., 2024). This approach guarantees that outcomes are statistically based rather than interpretive, permits repeatable experimentation, and supports accurate comparison."
+    },
+    {
+      "index": 176,
+      "style": "Heading 3",
+      "text": "3.4.3 Method of Field Research: Evaluation Based on Datasets"
+    },
+    {
+      "index": 177,
+      "style": "Normal",
+      "text": "The quantitative research was handled by using data-based evaluation. The suggested system's prediction performance and accessibility were assessed using publicly available benchmark datasets. Model outputs were examined using numerical performance metrics extracted directly from the datasets, allowing for an objective assessment of prediction quality and system performance."
+    },
+    {
+      "index": 178,
+      "style": "Normal",
+      "text": "This method is aligned with best practices in machine learning research, where model validation is done with structured datasets rather than qualitative methods like interviews or focus groups (Forman et al., 2019). Dataset-based quantitative evaluation ensures transparency, consistency, and methodological robustness."
+    },
+    {
+      "index": 180,
+      "style": "Heading 3",
+      "text": "3.4.4 Description and Selection of Datasets"
+    },
+    {
+      "index": 181,
+      "style": "Normal",
+      "text": "This study used publicly available secondary datasets to help with the creation and quantitative evaluation of the proposed explainable artificial intelligence (XAI)-based personalised nutrition system. Secondary datasets were chosen to ensure ethical compliance, reproducibility, and compatibility with machine learning-based analysis (Joshi et al., 2023).\n\nPhysiological and nutritional data were utilised to predict postprandial metabolic reactions, while gut microbiome data were used to represent the microbial makeup that influences individual dietary responses. The Human Microbiome Project (HMP) dataset was chosen as the primary source of gut microbiome data."
+    },
+    {
+      "index": 182,
+      "style": "Normal",
+      "text": "The Human Microbiome Project provides comprehensive, peer-reviewed human microbiome profiles from various human locations, including the gastrointestinal system. Gut-specific microbiome samples were used in this investigation, which included microbial taxonomic abundance data obtained by sequencing-based analysis. These data give relative abundance estimates for microbial taxa and are commonly used in microbiome-based health and nutrition research (Human Microbiome Project Consortium, 2012; Zeevi et al., 2015)."
+    },
+    {
+      "index": 183,
+      "style": "Normal",
+      "text": "The HMP dataset was chosen for its high data quality, organised numerical format, and applicability to personalised nutrition research. Its availability as a publicly accessible dataset improves transparency and allows for repeatable quantitative evaluation. Furthermore, the use of secondary microbiome data eliminates the ethical considerations associated with obtaining sensitive biological samples while yet allowing for effective incorporation of gut microbial traits into the predictive modelling pipeline (Ben-Yacov et al., 2021)."
+    },
+    {
+      "index": 186,
+      "style": "Heading 2",
+      "text": "System Design and Implementation Techniques"
+    },
+    {
+      "index": 187,
+      "style": "Normal",
+      "text": "This section outlines the specific methods and tools utilised to put the system into action."
+    },
+    {
+      "index": 188,
+      "style": "Normal",
+      "text": "3.5.1 Architecture of the System"
+    },
+    {
+      "index": 189,
+      "style": "Normal",
+      "text": "Figure3.1 Description: The flow of data from raw data sources (gut microbiota, CGM, nutritional intake, and health measurements) to preprocessing, predictive modelling, explainable AI analysis, and final customised nutrition recommendations is depicted in a block diagram."
+    },
+    {
+      "index": 190,
+      "style": "Normal",
+      "text": "The following layer structure of the system:"
+    },
+    {
+      "index": 191,
+      "style": "List Paragraph",
+      "text": "Data Acquisition Layer: collecting physiological, nutritional, and microbial data."
+    },
+    {
+      "index": 192,
+      "style": "List Paragraph",
+      "text": "Features are cleaned, normalised, and engineered by the data preprocessing layer."
+    },
+    {
+      "index": 193,
+      "style": "List Paragraph",
+      "text": "An LSTM neural network is used in the predictive modelling layer to forecast the postprandial glycaemic response."
+    },
+    {
+      "index": 194,
+      "style": "List Paragraph",
+      "text": "Explainability Layer: Uses LIME and SHAP to analyse forecasts."
+    },
+    {
+      "index": 195,
+      "style": "List Paragraph",
+      "text": "Recommendation Layer: Produces individualised, comprehensible dietary recommendations."
+    },
+    {
+      "index": 196,
+      "style": "Normal",
+      "text": "This architecture overcomes the weaknesses identified in earlier research by reflecting the need for both predictability and transparency."
+    },
+    {
+      "index": 200,
+      "style": "List Paragraph",
+      "text": "Figure 3.1"
+    },
+    {
+      "index": 202,
+      "style": "Normal",
+      "text": "3.5.2 Data Processing Approaches"
+    },
+    {
+      "index": 203,
+      "style": "Normal",
+      "text": "Following best practices in healthcare and microbiome data analysis, data preprocessing procedures include data cleaning, normalisation, encoding, and feature engineering (Reitmeier et al., 2020; Ben-Yacov et al., 2021)."
+    },
+    {
+      "index": 204,
+      "style": "Normal",
+      "text": "3.5.3 The Predictive Modelling Approach"
+    },
+    {
+      "index": 205,
+      "style": "Normal",
+      "text": "The temporal glucose response patterns were modelled using a Long Short-Term Memory (LSTM) neural network. Figure 3.2 displays the LSTM model's structure."
+    },
+    {
+      "index": 206,
+      "style": "Normal",
+      "text": "Figure 3.2: A simplified LSTM design for predicting glucose responses"
+    },
+    {
+      "index": 207,
+      "style": "Normal",
+      "text": "In order to model postprandial glycaemic reactions, LSTM was used because it can capture long-term dependencies in time-series data (Forman et al., 2019)."
+    },
+    {
+      "index": 209,
+      "style": "List Paragraph",
+      "text": "Figure 3.2"
+    },
+    {
+      "index": 211,
+      "style": "Normal",
+      "text": "3.5.4 Explainable Artificial Intelligence Approach"
+    },
+    {
+      "index": 212,
+      "style": "Normal",
+      "text": "Model predictions were interpreted using explainable artificial intelligence approaches. Figure 3.3 depicts an explainability workflow."
+    },
+    {
+      "index": 213,
+      "style": "Normal",
+      "text": "Figure 3.3: Explainable AI workflow utilising SHAP and LIME."
+    },
+    {
+      "index": 214,
+      "style": "Normal",
+      "text": "Model outputs are converted into comprehensible explanations that show how physiological parameters, nutritional composition, and microbial characteristics affect specific dietary recommendations, as shown in Figure 3.3. This strengthens clinical relevance, encourages ethical responsibility, and increases user trust."
+    },
+    {
+      "index": 216,
+      "style": "List Paragraph",
+      "text": "Figure 3.3"
+    },
+    {
+      "index": 218,
+      "style": "Heading 2",
+      "text": "Problems and Limitations"
+    },
+    {
+      "index": 219,
+      "style": "Normal",
+      "text": "3.6.1 Implementation Problems"
+    },
+    {
+      "index": 220,
+      "style": "Normal",
+      "text": "One of the most difficult aspects of this project's implementation was integrating various sources of data, such as gut microbiota profiles, dietary intake records, and continuous glucose monitoring (CGM) data. These datasets vary widely in structure, scale, and temporal resolution, necessitating intensive preprocessing to maintain consistency and compliance with machine learning models (Reitmeier et al., 2020; Tsolakidis et al., 2024)."
+    },
+    {
+      "index": 221,
+      "style": "Normal",
+      "text": "Another major issue was reconciling forecast accuracy with model interpretability. While deep learning systems like LSTM are useful for simulating complex time series data, they are fundamentally unreliable. To provide meaningful and therapeutically relevant explanations, explainable AI techniques have to be integrated further (Bul et al., 2023; Joshi et al., 2023)."
+    },
+    {
+      "index": 223,
+      "style": "Normal",
+      "text": "3.6.2  Research Limitations"
+    },
+    {
+      "index": 224,
+      "style": "Normal",
+      "text": "One significant disadvantage of this study is its dependence on secondary datasets rather than real-time or longitudinal clinical data. As a result, the system has not been validated in live healthcare settings, limiting its immediate clinical utility (Adams et al., 2020; Brankovic and Hendrie, 2025).\n\nFurthermore, the generalisability of the suggested model may be limited by dataset size and population variety. Previous research has found that microbiome-based models generally perform poorly when used across diverse cohorts, emphasising issues with robustness and external validity (Reitmeier et al., 2020; Probul et al., 2024)."
+    },
+    {
+      "index": 226,
+      "style": "Normal",
+      "text": "Despite these limits, the identified issues suggest clear routes for future study, such as using larger, more diverse datasets and privacy-preserving methodologies like federated learning to improve model robustness and scalability (Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 228,
+      "style": "Heading 2",
+      "text": "Resources and Tools"
+    },
+    {
+      "index": 229,
+      "style": "Heading 3",
+      "text": "Hardware"
+    },
+    {
+      "index": 230,
+      "style": "Normal",
+      "text": "The study was executed out on a personal computer that had enough memory and processing capability to perform quantitative evaluation, machine learning model training, and data preparation. The system's multi-core CPU and integrated graphics were sufficient for the size and complexity of the datasets employed, including physiological and gut microbiome data, despite the lack of a separate high-performance GPU."
+    },
+    {
+      "index": 231,
+      "style": "Heading 3",
+      "text": "Software"
+    },
+    {
+      "index": 232,
+      "style": "Normal",
+      "text": "A carefully chosen software framework was used to assist in the development, evaluation, and interpretation of the proposed explainable AI-based personalised nutrition system. The tools were chosen for their capacity to analyse quantitative data, experiment with machine learning, and conduct reliable research."
+    },
+    {
+      "index": 234,
+      "style": "Normal",
+      "text": "The main programming language was Python because of its broad support for machine learning and data analysis (Van Rossum and Drake, 2009). Jupyter Notebook was utilised for preprocessing, iterative model construction, and data exploration. The LSTM model was trained and implemented using TensorFlow and Keras (Abadi et al., 2016). Data management and numerical computation were handled using Pandas and NumPy, and visualisation was done with Matplotlib and Seaborn. SHAP and LIME were used to create explainable AI approaches to facilitate model prediction interpretation (Lundberg and Lee, 2017)."
+    },
+    {
+      "index": 236,
+      "style": "Heading 2",
+      "text": "Ethical Concerns"
+    },
+    {
+      "index": 237,
+      "style": "Normal",
+      "text": "Because the health, nutritional, and gut microbiota data were highly sensitive data, legal issues were crucial to this research. All datasets utilised in this work were encrypted and derived from publicly accessible or ethically approved research sources, ensuring that no personally identifying information was handled or retained. This technique follows ethical criteria for healthcare and data-driven research (Özdemir & Kolker, 2016; Adams et al., 2020)."
+    },
+    {
+      "index": 238,
+      "style": "Normal",
+      "text": "Introducing explainable artificial intelligence improves ethical AI concepts by increasing transparency, responsibility, and user trust. Explainable models help consumers and healthcare professionals understand how specific aspects affect dietary recommendations, lowering the hazards associated with opaque \"black-box\" decision-making systems (Bul et al., 2023; Jin et al., 2024)."
+    },
+    {
+      "index": 240,
+      "style": "Normal",
+      "text": "In addition, the research acknowledges that AI-based nutrition systems should complement, rather than replace, human medical judgment. As a result, the established system is solely for academic and research purposes and does not offer clinical diagnosis or medical advice. Ethical responsibility, data privacy, and fairness were prioritised throughout the system design in line with best practices in personalised nutrition and healthcare AI research (Brankovic and Hendrie, 2025)."
+    },
+    {
+      "index": 242,
+      "style": "Heading 2",
+      "text": "Chapter Summary"
+    },
+    {
+      "index": 243,
+      "style": "Normal",
+      "text": "This chapter describes the methodological framework used to create and construct the suggested explainable AI-powered personalised nutrition system. A quantitative research strategy, along with an Agile software development life cycle, allowed for repeated testing, continual improvement, and systematic evaluation of both prediction performance and accessibility."
+    },
+    {
+      "index": 244,
+      "style": "Normal",
+      "text": "The combination of LSTM-based modelling and explainable AI techniques like SHAP and LIME directly addresses key limitations identified in previous personalised nutrition research, particularly a lack of transparency and trust in AI-driven healthcare systems (Bul et al., 2023; Brankovic and Hendrie, 2025). Furthermore, the methodological choices taken in this work were motivated by limitations identified in the literature analysis, such as problems related to data heterogeneity, generalisability, and ethical AI deployment in healthcare settings (Reitmeier et al., 2020; Adams et al., 2020)."
+    },
+    {
+      "index": 245,
+      "style": "Normal",
+      "text": "All things considered, this methodology offers a solid and ethical basis for studying the system's output and assessing how well it works in the upcoming chapters."
+    },
+    {
+      "index": 252,
+      "style": "Heading 1",
+      "text": "Results/Findings/Outcomes"
+    },
+    {
+      "index": 253,
+      "style": "Normal",
+      "text": "Depending on your topic, you may have variety of things to report here. But these are objective reporting without stating your opinion on the results you are getting. This will happen in the next chapter."
+    },
+    {
+      "index": 254,
+      "style": "Heading 2",
+      "text": "Source Code"
+    },
+    {
+      "index": 255,
+      "style": "Normal",
+      "text": "Use the Code style for presenting code snippets within this report. Please include snippets, rather than 1,000s of line of code which should be placed in an appendix or, if very large, in a separate document. If you have no code, then other implementation artifacts (e.g. screenshots) can be placed here if not evidenced elsewhere."
+    },
+    {
+      "index": 256,
+      "style": "Code",
+      "text": "static public void main(String[] args) {"
+    },
+    {
+      "index": 257,
+      "style": "Code",
+      "text": "try  {"
+    },
+    {
+      "index": 258,
+      "style": "Code",
+      "text": "UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());"
+    },
+    {
+      "index": 259,
+      "style": "Code",
+      "text": "}"
+    },
+    {
+      "index": 260,
+      "style": "Code",
+      "text": "catch(Exception e) {"
+    },
+    {
+      "index": 261,
+      "style": "Code",
+      "text": "e.printStackTrace();"
+    },
+    {
+      "index": 262,
+      "style": "Code",
+      "text": "}"
+    },
+    {
+      "index": 263,
+      "style": "Code",
+      "text": "new WelcomeApp();"
+    },
+    {
+      "index": 264,
+      "style": "Code",
+      "text": "}"
+    },
+    {
+      "index": 266,
+      "style": "Heading 1",
+      "text": "Evaluation"
+    },
+    {
+      "index": 267,
+      "style": "Normal",
+      "text": "Include an evaluation of both product and process. You need to be objective in evaluating your work. Make sure you have a reflection here on what worked and what did not work."
+    },
+    {
+      "index": 268,
+      "style": "Heading 1",
+      "text": "Conclusion"
+    },
+    {
+      "index": 269,
+      "style": "Normal",
+      "text": "Write the conclusion of your project as well as any information related to future work. Remember to reflect on the key findings, limitations of these findings, and future opportunities to extend this work. Maybe a student next year can take your project and extend it!"
+    },
+    {
+      "index": 271,
+      "style": "Unnumbered Heading 1",
+      "text": "Reference List"
+    },
+    {
+      "index": 272,
+      "style": "Normal",
+      "text": "Ensure that your list of references using the Harvard format and is consistent with the citations in you report. Refer to lessons 4 and 7 for more details."
+    },
+    {
+      "index": 274,
+      "style": "Normal",
+      "text": "Reference List"
+    },
+    {
+      "index": 275,
+      "style": "Normal",
+      "text": "Bandi, N., Bell, B. and colleagues (2023) AI-based dietary monitoring and biometric health prediction. Healthcare, 13(8), pp. 1–18."
+    },
+    {
+      "index": 276,
+      "style": "Normal",
+      "text": "Brankovic, A. and Hendrie, G. (2025) Perspectives, challenges and future of artificial intelligence in personalised nutrition research."
+    },
+    {
+      "index": 277,
+      "style": "Normal",
+      "text": "Xie, M., Song, H., Zhang, C. and He, X. (2024) ‘Gut microbiota and personalised nutrition: Advances, challenges, and applications’, Frontiers in Nutrition, 12, Article 1636980."
+    },
+    {
+      "index": 278,
+      "style": "No Spacing",
+      "text": "Adams, S.H., Anthony, J.C., Carvajal, R., Chae, L., Khoo, C.S.H., Latulippe, M.E., Matusheski, N.V., McClung, H.L., Rozga, M., Schmid, C.H. and Wopereis, S. (2020) ‘Perspective: Guiding principles for the implementation of personalised nutrition approaches that benefit health and function’, Advances in Nutrition, 11(1), pp. 25–34."
+    },
+    {
+      "index": 279,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1093/advances/nmz086"
+    },
+    {
+      "index": 281,
+      "style": "No Spacing",
+      "text": "Ben-Yacov, O., Godneva, A., Rein, M., Shilo, S., Kolobkov, D., Koren, N., Cohen-Dolev, N., Leviatan, S., Zeevi, D. and Segal, E. (2021) ‘Personalised postprandial glucose targeting diet using machine learning and gut microbiome data’, Diabetes Care, 44(5), pp. 1–10."
+    },
+    {
+      "index": 282,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.2337/dc20-1599"
+    },
+    {
+      "index": 284,
+      "style": "No Spacing",
+      "text": "Ben-Yacov, O., Godneva, A., Rein, M. and Segal, E. (2023) ‘Personalised nutrition for prediabetes based on gut microbiome analysis’, Nature Medicine, 29(3), pp. 1–9."
+    },
+    {
+      "index": 285,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1038/s41591-022-02157-y"
+    },
+    {
+      "index": 287,
+      "style": "No Spacing",
+      "text": "Brankovic, L. and Hendrie, G.A. (2025) ‘Artificial intelligence in personalised nutrition: Opportunities, challenges and future directions’, Healthcare, 13(14), 1417."
+    },
+    {
+      "index": 288,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.3390/healthcare13141417"
+    },
+    {
+      "index": 290,
+      "style": "No Spacing",
+      "text": "Bul, K.C.M., Franken, A.I., Van der Velde, J., De Vries, J.H.M. and Van der Lans, I.A. (2023) ‘AI-driven personalised nutrition platforms in healthcare: A systematic review’, Healthcare, 11(18), pp. 1–15."
+    },
+    {
+      "index": 291,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.3390/healthcare11182534"
+    },
+    {
+      "index": 293,
+      "style": "No Spacing",
+      "text": "Forman, E.M., Goldstein, S.P., Crochiere, R.J., Butryn, M.L., Juarascio, A.S. and Zhang, F. (2019) ‘Randomized controlled trial of a smartphone-based intervention for weight loss using reinforcement learning’, Obesity, 27(4), pp. 559–568."
+    },
+    {
+      "index": 294,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1002/oby.22433"
+    },
+    {
+      "index": 296,
+      "style": "No Spacing",
+      "text": "Jin, Y., Li, X., Wang, Y. and Zhang, H. (2024) ‘GPT-based dietary guidance for chronic disease management: Opportunities and challenges’, Healthcare, 12(2), pp. 1–12."
+    },
+    {
+      "index": 297,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.3390/healthcare12020110"
+    },
+    {
+      "index": 299,
+      "style": "No Spacing",
+      "text": "Joshi, A., Kulkarni, A., Gupta, R. and Jain, S. (2023) ‘Digital twin–based nutrition intervention for diabetes management’, Journal of Medical Systems, 47(6), pp. 1–14."
+    },
+    {
+      "index": 300,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1007/s10916-023-01968-9"
+    },
+    {
+      "index": 302,
+      "style": "No Spacing",
+      "text": "Mulani, A., Ganesan, A., Karthikeyan, N. and Rajendran, S. (2020) ‘Reinforcement learning–based recommendation systems in healthcare’, International Journal of Advanced Computer Science and Applications, 11(6), pp. 1–8."
+    },
+    {
+      "index": 303,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.14569/IJACSA.2020.0110602"
+    },
+    {
+      "index": 305,
+      "style": "No Spacing",
+      "text": "Özdemir, V. and Kolker, E. (2016) ‘Precision nutrition 4.0: A big data and ethical perspective’, Omics: A Journal of Integrative Biology, 20(11), pp. 586–594."
+    },
+    {
+      "index": 306,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1089/omi.2016.0131"
+    },
+    {
+      "index": 308,
+      "style": "No Spacing",
+      "text": "Probul, N., Singh, A., Mehta, P. and Rao, V. (2024) ‘Generalisation challenges in AI-driven microbiome research’, Artificial Intelligence in Medicine, 148, 102650."
+    },
+    {
+      "index": 309,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1016/j.artmed.2024.102650"
+    },
+    {
+      "index": 311,
+      "style": "No Spacing",
+      "text": "Rein, M., Ben-Yacov, O., Godneva, A. and Segal, E. (2022) ‘Gut microbiome–guided dietary interventions in type 2 diabetes’, Cell Metabolism, 34(4), pp. 1–13."
+    },
+    {
+      "index": 312,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1016/j.cmet.2022.02.004"
+    },
+    {
+      "index": 314,
+      "style": "No Spacing",
+      "text": "Reitmeier, S., Hitch, T.C.A., Treichel, N., Fikas, N., Hausmann, B., Ramer-Tait, A.E. and Lagkouvardos, I. (2020) ‘Handling of spatiotemporal variation in human microbiome data’, Nature Communications, 11, 3411."
+    },
+    {
+      "index": 315,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1038/s41467-020-17195-4"
+    },
+    {
+      "index": 317,
+      "style": "No Spacing",
+      "text": "Tsolakidis, D., Papadopoulos, A., Tzovaras, D. and Kompatsiaris, I. (2024) ‘Interoperability challenges in multimodal healthcare AI systems’, IEEE Journal of Biomedical and Health Informatics, 28(1), pp. 1–12."
+    },
+    {
+      "index": 318,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1109/JBHI.2023.3321459"
+    },
+    {
+      "index": 320,
+      "style": "No Spacing",
+      "text": "Zeevi, D., Korem, T., Zmora, N., Israeli, D., Rothschild, D., Weinberger, A., Ben-Yacov, O., Lador, D., Avnit-Sagi, T. and Segal, E. (2015) ‘Personalised nutrition by prediction of glycemic responses’, Cell, 163(5), pp. 1079–1094."
+    },
+    {
+      "index": 321,
+      "style": "No Spacing",
+      "text": "https://doi.org/10.1016/j.cell.2015.11.001"
+    },
+    {
+      "index": 323,
+      "style": "No Spacing",
+      "text": "Human Microbiome Project Consortium (2012) ‘Structure, function and diversity of the healthy human microbiome’, Nature, 486(7402), pp. 207–214."
+    },
+    {
+      "index": 324,
+      "style": "Normal",
+      "text": "Joshi, S., Ghassemi, M. and Nemati, S. (2023) ‘Explainability in machine learning for healthcare: A survey’, ACM Computing Surveys, 55(5), pp. 1–36."
+    },
+    {
+      "index": 325,
+      "style": "Normal",
+      "text": "Van Rossum, G. and Drake, F.L. (2009) Python 3 Reference Manual. Scotts Valley, CA: CreateSpace.\nAbadi, M. et al. (2016) ‘TensorFlow: A system for large-scale machine learning’, OSDI, pp. 265–283."
+    },
+    {
+      "index": 326,
+      "style": "Normal",
+      "text": "Lundberg, S.M. and Lee, S.I. (2017) ‘A unified approach to interpreting model predictions’, NeurIPS, 30, pp. 4765–4774."
+    },
+    {
+      "index": 327,
+      "style": "Unnumbered Heading 1",
+      "text": "Appendix A - Initial Project Proposal"
+    },
+    {
+      "index": 328,
+      "style": "Normal",
+      "text": "Project (CN6000)\t\t\t\t\t\tInitial Proposal Form"
+    },
+    {
+      "index": 330,
+      "style": "Normal",
+      "text": "Programme:\t\t\t\t\t\t\tYear:"
+    },
+    {
+      "index": 332,
+      "style": "Normal",
+      "text": "Student Number:"
+    },
+    {
+      "index": 334,
+      "style": "Normal",
+      "text": "Proposed Title:"
+    },
+    {
+      "index": 336,
+      "style": "Normal",
+      "text": "Proposed Aim:"
+    },
+    {
+      "index": 337,
+      "style": "Normal",
+      "text": "(Please provide a brief summary of what you hope to achieve by the end of your project. Your proposed aim should clearly identify your topic of interest.)"
+    },
+    {
+      "index": 342,
+      "style": "Normal",
+      "text": "Rationale:"
+    },
+    {
+      "index": 343,
+      "style": "Normal",
+      "text": "(Please provide a detailed explanation of why you think this project needs to be undertaken.)"
+    },
+    {
+      "index": 352,
+      "style": "Normal",
+      "text": "Supervisor:"
+    },
+    {
+      "index": 353,
+      "style": "Unnumbered Heading 1",
+      "text": "Appendix B - Final Project Proposal"
+    },
+    {
+      "index": 354,
+      "style": "Normal",
+      "text": "Project (CN6000)\t\t\t\t\t\tFinal Proposal Form"
+    },
+    {
+      "index": 356,
+      "style": "Normal",
+      "text": "Programme:\t\t\t\t\t\t\tYear:"
+    },
+    {
+      "index": 358,
+      "style": "Normal",
+      "text": "Student Number:"
+    },
+    {
+      "index": 360,
+      "style": "Normal",
+      "text": "Proposed Title:"
+    },
+    {
+      "index": 362,
+      "style": "Normal",
+      "text": "Proposed Aim:"
+    },
+    {
+      "index": 363,
+      "style": "Normal",
+      "text": "(Please provide a brief summary of what you hope to achieve by the end of your project. Your proposed aim should clearly identify your topic of interest.)"
+    },
+    {
+      "index": 366,
+      "style": "Normal",
+      "text": "Objectives: (Please provide a list of the objectives you need to achieve for your project to succeed.)"
+    },
+    {
+      "index": 373,
+      "style": "Normal",
+      "text": "Rationale:"
+    },
+    {
+      "index": 374,
+      "style": "Normal",
+      "text": "(Please provide a detailed explanation of why you think this project needs to be undertaken.)"
+    },
+    {
+      "index": 377,
+      "style": "Normal",
+      "text": "Facilities required:\t(Please provide a detailed list of what you will need to do implement your solution)"
+    },
+    {
+      "index": 379,
+      "style": "Normal",
+      "text": "Supervisor:"
+    },
+    {
+      "index": 380,
+      "style": "Unnumbered Heading 1",
+      "text": "Appendix C - Application for the Approval of Research Activities to be Attached (if needed)"
+    },
+    {
+      "index": 381,
+      "style": "Unnumbered Heading 1",
+      "text": "Appendix D – Client Consent Form to be Attached (if needed)"
+    },
+    {
+      "index": 382,
+      "style": "Unnumbered Heading 1",
+      "text": "Additional Appendices (as needed)"
+    }
+  ],
+  "tables": [
+    {
+      "table_index": 0,
+      "rows": [
+        [
+          "Research",
+          "Data Used",
+          "Model or Method",
+          "Explainability\n(XAI)",
+          "Key Outcomes",
+          "Identified the Gaps"
+        ],
+        [
+          "Zeevi et al. (2015)",
+          "Continuous glucose monitoring, gut microbiota, and dietary records",
+          "Machine learning group work",
+          "None",
+          "Highlighted individualised blood sugar reactions",
+          "Particular cohort data and limited capability for interpretation"
+        ],
+        [
+          "Reitmeier et al. (2020)",
+          "Genetic sequencing of microbiomes",
+          "ML and statistical models",
+          "None",
+          "Microbiome predictions were found to be unstable across groups.",
+          "Limited validity and generalised"
+        ],
+        [
+          "Özdemir and Kolker (2016)",
+          "Multiple omics datasets",
+          "Methods from biological systems",
+          "Li mited",
+          "Data-driven PN frameworks that are suggested",
+          "Absence of integrated, expandable systems"
+        ],
+        [
+          "Adams et al. (2020)",
+          "Medical and behavioural data",
+          "Models for machine learning",
+          "Limited",
+          "Improved accuracy in dietary recommendations",
+          "Absence of microbiome integration"
+        ],
+        [
+          "Bul et al. (2023)",
+          "Health, behaviour and nutritional information",
+          "AI-powered PN systems",
+          "Partial",
+          "highlighted the prospective of PN in healthcare",
+          "Limited ethical transparency and explainability"
+        ],
+        [
+          "Joshi et al. (2023)",
+          "Environmental and clinical data",
+          "Models of identical devices",
+          "None",
+          "Established capacity to manage persistent diseases",
+          "Absence of XAI and microbiome data"
+        ],
+        [
+          "Brankovic and Hendrie (2025)",
+          "Analysing PN systems",
+          "Concept evaluation",
+          "Partial",
+          "identified PN's future directions",
+          "Explainable, scalable, and generalisable AI is required."
+        ]
+      ]
+    }
+  ]
+}

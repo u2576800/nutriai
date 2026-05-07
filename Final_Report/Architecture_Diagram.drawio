@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-05-02T10:00:00.000Z" agent="5.0" version="21.0.0" type="device">
+  <diagram id="architecture" name="System Architecture">
+    <mxGraphModel dx="1400" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="title" value="NutriAI System Architecture" style="text;html=1;align=center;fontSize=18;fontStyle=1;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="200" y="10" width="1000" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="frontend-section" style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;strokeWidth=3" vertex="1" parent="1">
+          <mxGeometry x="50" y="70" width="300" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="frontend-label" value="🖥️ FRONTEND LAYER" style="text;html=1;fontSize=12;fontStyle=1;align=center;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="50" y="75" width="300" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="react" value="⚛️ React 18 + Vite" style="rounded=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fillColor=#61DAFB;strokeColor=#0288D1;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="70" y="105" width="260" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="login" value="Login Component" style="rounded=1;align=center;fontSize=8;fillColor=#E3F2FD;strokeColor=#0288D1;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="145" width="115" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="onboarding" value="Onboarding" style="rounded=1;align=center;fontSize=8;fillColor=#E3F2FD;strokeColor=#0288D1;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="195" y="145" width="115" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="dashboard" value="Dashboard" style="rounded=1;align=center;fontSize=8;fillColor=#E3F2FD;strokeColor=#0288D1;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="180" width="115" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="history" value="History View" style="rounded=1;align=center;fontSize=8;fillColor=#E3F2FD;strokeColor=#0288D1;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="195" y="180" width="115" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="upload" value="Image Upload" style="rounded=1;align=center;fontSize=8;fillColor=#E3F2FD;strokeColor=#0288D1;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="215" width="115" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="manual" value="Manual Entry" style="rounded=1;align=center;fontSize=8;fillColor=#E3F2FD;strokeColor=#0288D1;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="195" y="215" width="115" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="results" value="Results Display" style="rounded=1;align=center;fontSize=8;fillColor=#E3F2FD;strokeColor=#0288D1;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="240" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="vite" value="📦 Vite Build" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFF59D;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="70" y="300" width="115" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="api-client" value="🌐 Fetch API" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFF59D;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="195" y="300" width="115" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-section" style="rounded=1;fillColor=#E8D5F0;strokeColor=#7B1FA2;strokeWidth=3" vertex="1" parent="1">
+          <mxGeometry x="400" y="70" width="500" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="backend-label" value="🔧 BACKEND LAYER" style="text;html=1;fontSize=12;fontStyle=1;align=center;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="400" y="75" width="500" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="fastapi" value="🚀 FastAPI + Uvicorn" style="rounded=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fillColor=#BA68C8;strokeColor=#7B1FA2;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="420" y="105" width="460" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="endpoint1" value="POST /api/predict" style="rounded=1;align=center;fontSize=8;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="145" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="endpoint2" value="POST /api/analyse-food-image" style="rounded=1;align=center;fontSize=7;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="145" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="endpoint3" value="POST /api/predict-from-image" style="rounded=1;align=center;fontSize=7;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="145" width="140" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="validation" value="Validation" style="rounded=1;align=center;fontSize=8;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="180" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="preprocessing" value="Preprocessing" style="rounded=1;align=center;fontSize=8;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="180" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="encryption" value="Encryption" style="rounded=1;align=center;fontSize=8;fillColor=#F3E5F5;strokeColor=#7B1FA2;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="180" width="140" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="cnn-box" value="CNN Food Classifier" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFD54F;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="215" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="nutrition-box" value="Nutrition DB" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFD54F;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="215" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="rf-shap-box" value="RF Model + SHAP" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFD54F;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="215" width="140" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="llm-box" value="LLM (Gemini)" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFD54F;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="420" y="250" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="patient-prof-box" value="Patient Profiles" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFD54F;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="560" y="250" width="130" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="cache-box" value="JSON Cache" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#FFD54F;strokeColor=#F57F17;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="700" y="250" width="140" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="deps" value="Pydantic | Joblib | SHAP | Pandas | Scikit-learn" style="text;html=1;fontSize=7;align=center;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="420" y="285" width="420" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="ml-section" style="rounded=1;fillColor=#F8BBD0;strokeColor=#C2185B;strokeWidth=3" vertex="1" parent="1">
+          <mxGeometry x="950" y="70" width="350" height="380" as="geometry"/>
+        </mxCell>
+        <mxCell id="ml-label" value="🤖 ML LAYER" style="text;html=1;fontSize=12;fontStyle=1;align=center;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="950" y="75" width="350" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="cnn-classify" value="CNN Classification" style="rounded=1;align=center;fontSize=9;fontStyle=1;fillColor=#F48FB1;strokeColor=#C2185B;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="970" y="105" width="310" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="gemini-models" value="Google Gemini 2.5/1.5" style="rounded=1;align=center;fontSize=8;fillColor=#FCE4EC;strokeColor=#C2185B;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="970" y="145" width="145" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="offline-detect" value="Offline Detection" style="rounded=1;align=center;fontSize=8;fillColor=#FCE4EC;strokeColor=#C2185B;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="1135" y="145" width="145" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="rf-predict" value="Random Forest (Prediction)" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#F48FB1;strokeColor=#C2185B;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="970" y="180" width="310" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="shap-explain" value="SHAP Explainability" style="rounded=1;align=center;fontSize=8;fontStyle=1;fillColor=#F48FB1;strokeColor=#C2185B;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="970" y="215" width="310" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="llm-advice" value="LLM Clinical Advice" style="rounded=1;align=center;fontSize=9;fontStyle=1;fillColor=#F48FB1;strokeColor=#C2185B;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="970" y="250" width="310" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="deps-ml" value="scikit-learn | SHAP | google-generativeai | joblib | PIL" style="text;html=1;fontSize=7;align=center;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="970" y="285" width="310" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="data-section" value="💾 DATA LAYER: SQLite (encrypted) + JSON Session Cache | Patient History | Food Nutrition DB | Microbiome Profiles" style="rounded=1;align=center;fontSize=9;fillColor=#C8E6C9;strokeColor=#2E7D32;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="50" y="480" width="1250" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="security-section" value="🔐 SECURITY: Fernet Encryption | CORS Validation | Input Sanitization | HTTPS Ready" style="rounded=1;align=center;fontSize=9;fillColor=#FFE0B2;strokeColor=#E65100;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="50" y="550" width="1250" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="legend" value="Legend: Green=Data | Blue=Frontend | Purple=Backend | Orange=ML | Yellow=Support" style="text;html=1;fontSize=8;align=center;fillColor=none;strokeColor=none;fontStyle=italic" vertex="1" parent="1">
+          <mxGeometry x="50" y="620" width="1250" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

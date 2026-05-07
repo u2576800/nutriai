@@ -1,0 +1,30 @@
+# NutriAI - Full Requirements
+# Install with: pip install -r requirements.txt
+
+# --- Web Framework ---
+fastapi
+uvicorn[standard]
+
+# --- Data & ML ---
+joblib
+pandas
+numpy
+scikit-learn
+
+# --- CNN (MobileNetV2) ---
+tensorflow
+Pillow
+
+# --- Explainability ---
+shap
+matplotlib
+
+# --- AI / LLM ---
+google-generativeai
+
+# --- Security & Config ---
+python-dotenv
+cryptography
+
+# --- Form data / file uploads ---
+python-multipart

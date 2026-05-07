@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-05-02T10:00:00.000Z" agent="5.0" version="21.0.0" type="device">
+  <diagram id="dashboard" name="Dashboard Wireframe">
+    <mxGraphModel dx="1000" dy="1600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="container" style="rounded=0;fillColor=#FFFFFF;strokeColor=#333333;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="960" height="1380" as="geometry"/>
+        </mxCell>
+        <mxCell id="header" style="rounded=0;fillColor=#0D47A1;strokeColor=#0D47A1" vertex="1" parent="1">
+          <mxGeometry x="20" y="10" width="960" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="logo" value="🎯 NUTRI-AI" style="text;html=1;fontSize=16;fontStyle=1;align=left;textColor=white;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="40" y="15" width="150" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="patient" value="👤 Patient: U2024 | 🧬 Microbiome: Firmicutes-Dominant" style="text;html=1;fontSize=10;align=center;textColor=white;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="300" y="15" width="400" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="header-icons" value="⚙️ | 📋 | 👤" style="text;html=1;fontSize=12;align=right;textColor=white;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="900" y="15" width="60" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="tabs-bg" style="rounded=0;fillColor=#F5F5F5;strokeColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="20" y="60" width="960" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="tab-image" value="📷 IMAGE UPLOAD" style="rounded=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fillColor=#FFC107;strokeColor=#FF8C00;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="40" y="68" width="180" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="tab-manual" value="📝 MANUAL ENTRY" style="rounded=0;align=center;verticalAlign=middle;fontSize=10;fillColor=#EEEEEE;strokeColor=#AAAAAA" vertex="1" parent="1">
+          <mxGeometry x="240" y="68" width="180" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="input-panel" style="rounded=0;fillColor=#FFFEF0;strokeColor=#FFB84D;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="20" y="100" width="960" height="160" as="geometry"/>
+        </mxCell>
+        <mxCell id="image-preview" value="📷 Food Image Preview (Drag &amp; Drop)" style="rounded=1;align=center;verticalAlign=middle;fontSize=10;fillColor=#EEEEEE;strokeColor=#999999;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="120" width="120" height="120" as="geometry"/>
+        </mxCell>
+        <mxCell id="portion-label" value="Portion Size:" style="text;html=1;fontSize=9;fontStyle=1;align=left;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="180" y="125" width="100" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="portion-slider" value="[=====●===========] 150g" style="text;html=1;fontSize=9;align=left;fillColor=none;strokeColor=none;fontFamily=monospace" vertex="1" parent="1">
+          <mxGeometry x="180" y="145" width="250" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="detected-food" value="✓ Detected: Apple (95% confidence)" style="text;html=1;fontSize=9;fontStyle=1;align=left;fillColor=none;strokeColor=none;textColor=#00AA00" vertex="1" parent="1">
+          <mxGeometry x="180" y="170" width="250" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="nutrition-info" value="🥗 Per 150g: 78 Cal | 21g Carbs | 0.45g Protein | 3.6g Fiber" style="text;html=1;fontSize=8;align=left;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="180" y="190" width="250" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-analyze" value="➡️ ANALYZE" style="rounded=1;align=center;verticalAlign=middle;fontSize=10;fontStyle=1;fillColor=#00AA00;strokeColor=#008800;strokeWidth=2;textColor=white" vertex="1" parent="1">
+          <mxGeometry x="830" y="210" width="110" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="processing" value="⏳ Processing... (Random Forest + SHAP + LLM)" style="rounded=1;align=center;verticalAlign=middle;fontSize=9;fillColor=#FFFACD;strokeColor=#FFD700;strokeWidth=1" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="880" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="spike-box" style="rounded=1;fillColor=#FFE8E8;strokeColor=#FF0000;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="40" y="320" width="250" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="spike-label" value="GLUCOSE SPIKE" style="text;html=1;fontSize=10;fontStyle=1;align=center;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="40" y="325" width="250" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="spike-value" value="28 mg/dL" style="text;html=1;fontSize=28;fontStyle=1;align=center;fillColor=none;strokeColor=none;textColor=#FF0000" vertex="1" parent="1">
+          <mxGeometry x="40" y="345" width="250" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="spike-sub" value="Moderate Impact" style="text;html=1;fontSize=9;align=center;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="40" y="385" width="250" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="shap-box" style="rounded=1;fillColor=#E3F2FD;strokeColor=#0066CC;strokeWidth=2" vertex="1" parent="1">
+          <mxGeometry x="310" y="320" width="610" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="shap-label" value="📊 SHAP Feature Attribution" style="text;html=1;fontSize=10;fontStyle=1;align=left;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="325" y="325" width="250" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="shap-data" value="Carbs +18 mg/dL (52%) | Protein +3 mg/dL (11%) | Fiber -5 mg/dL (-18%) | Other +12 mg/dL (43%)" style="text;html=1;fontSize=8;align=left;fillColor=none;strokeColor=none;fontFamily=monospace" vertex="1" parent="1">
+          <mxGeometry x="325" y="345" width="590" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="shap-chart-visual" value="[Waterfall Chart Visualization]" style="text;html=1;fontSize=7;align=center;fontStyle=italic;fillColor=none;strokeColor=none;textColor=#666666" vertex="1" parent="1">
+          <mxGeometry x="325" y="375" width="590" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="insights-header" value="💡 CLINICAL INSIGHTS &amp; ACTION PLAN" style="rounded=0;fillColor=#E8F5E9;strokeColor=#2E7D32;strokeWidth=1;fontSize=10;fontStyle=1;align=left" vertex="1" parent="1">
+          <mxGeometry x="40" y="425" width="880" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="insights-text" value="Your apple contains moderate carbohydrates (21g) with balanced fiber (3.6g). Combined with your Firmicutes-dominant microbiome, this meal generates a predictable glucose spike of 28 mg/dL. Your gut bacteria efficiently process the polyphenol-rich fruit compounds." style="text;html=1;fontSize=8;align=left;fillColor=none;strokeColor=none;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="50" y="450" width="860" height="35" as="geometry"/>
+        </mxCell>
+        <mxCell id="action-text" value="✅ Action Plan: Take a 10-minute light walk after eating. This physical activity reduces your peak glucose by 15-20% by increasing muscle glucose uptake." style="text;html=1;fontSize=8;align=left;fillColor=none;strokeColor=none;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="50" y="490" width="860" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-save" value="💾 Save" style="rounded=1;align=center;fontSize=9;fillColor=#0066CC;strokeColor=#003366;textColor=white" vertex="1" parent="1">
+          <mxGeometry x="40" y="535" width="70" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-log-another" value="➕ Log Another" style="rounded=1;align=center;fontSize=9;fillColor=#0066CC;strokeColor=#003366;textColor=white" vertex="1" parent="1">
+          <mxGeometry x="125" y="535" width="90" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="btn-history" value="📈 View History" style="rounded=1;align=center;fontSize=9;fillColor=#0066CC;strokeColor=#003366;textColor=white" vertex="1" parent="1">
+          <mxGeometry x="230" y="535" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="history-header" value="📋 RECENT PREDICTIONS (Last 5 Meals)" style="rounded=0;fillColor=#F5F5F5;strokeColor=#999999;fontSize=10;fontStyle=1;align=left" vertex="1" parent="1">
+          <mxGeometry x="40" y="575" width="880" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="history-1" value="🍎 Apple (150g) → 28 mg/dL | 3 hours ago | ⭐ Good" style="rounded=0;align=left;fontSize=8;fillColor=#E8F5E9;strokeColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="40" y="600" width="880" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="history-2" value="🥗 Salad (200g) → 15 mg/dL | 8 hours ago | ⭐ Excellent" style="rounded=0;align=left;fontSize=8;fillColor=#E8F5E9;strokeColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="40" y="622" width="880" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="history-3" value="🍝 Pasta (250g) → 42 mg/dL | Yesterday | ⚠️ Higher spike" style="rounded=0;align=left;fontSize=8;fillColor=#FFE8E8;strokeColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="40" y="644" width="880" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="history-4" value="☕ Coffee (black) → 1 mg/dL | Yesterday | ⭐ Perfect" style="rounded=0;align=left;fontSize=8;fillColor=#E8F5E9;strokeColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="40" y="666" width="880" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="history-5" value="🥘 Biryani (250g) → 45 mg/dL | 2 days ago | ⚠️ Higher spike" style="rounded=0;align=left;fontSize=8;fillColor=#FFE8E8;strokeColor=#CCCCCC" vertex="1" parent="1">
+          <mxGeometry x="40" y="688" width="880" height="18" as="geometry"/>
+        </mxCell>
+        <mxCell id="view-all" value="📊 View Full History &amp; Analytics →" style="text;html=1;fontSize=8;fontStyle=1;align=left;textColor=#0066CC;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="40" y="715" width="250" height="15" as="geometry"/>
+        </mxCell>
+        <mxCell id="trends-header" value="📈 TREND ANALYSIS (Last 7 Days)" style="rounded=0;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=10;fontStyle=1;align=left" vertex="1" parent="1">
+          <mxGeometry x="40" y="745" width="880" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="trends-content" value="Avg Spike: 26 mg/dL | Min: 1 mg/dL | Max: 45 mg/dL | Most Impactful: Refined Carbs | Best Tolerated: Fruits, Salads, Proteins | Trend: ↗ Slight increase after high-carb dinners" style="text;html=1;fontSize=8;align=left;fillColor=none;strokeColor=none;whiteSpace=wrap" vertex="1" parent="1">
+          <mxGeometry x="50" y="770" width="860" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="footer" value="ⓒ 2026 NutriAI | Privacy | Terms | Help | Logout" style="text;html=1;fontSize=7;align=center;textColor=#666666;fillColor=none;strokeColor=none" vertex="1" parent="1">
+          <mxGeometry x="40" y="1340" width="880" height="20" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

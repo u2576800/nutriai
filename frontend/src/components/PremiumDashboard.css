@@ -1,0 +1,302 @@
+/* =========================================
+   PremiumDashboard.css
+   ========================================= */
+
+/* Layout & Typography */
+.dashboard-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.profile-name { margin: 0; font-size: 18px; }
+.profile-goal { margin: 2px 0 0 0; font-size: 13px; color: var(--text-muted); }
+.section-title { font-size: 16px; margin-bottom: 15px; }
+.dashboard-title { margin: 0 0 25px 0; font-size: 22px; }
+
+/* Alerts & States */
+.error-alert {
+  background: #ffebee;
+  color: #c62828;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.empty-state {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 40px 20px;
+}
+
+/* Camera & Upload Area */
+.upload-area-extended {
+  margin-bottom: 20px;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.camera-container { position: relative; }
+.camera-video { width: 100%; border-radius: 12px; transform: scaleX(-1); }
+
+.capture-btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--danger);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 5px solid white;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.preview-image {
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  max-height: 300px;
+  display: block;
+}
+
+.hidden-file-input {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%; height: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Action Buttons */
+.action-buttons-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.btn-secondary {
+  padding: 12px;
+  background: white;
+  color: var(--primary-blue);
+  border: 2px solid var(--primary-blue);
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-tertiary {
+  width: 100%;
+  padding: 12px;
+  background: #f0f0f0;
+  color: #555;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.scan-badge {
+  /* ... other styles ... */
+  z-index: 20;
+  -webkit-backdrop-filter: blur(4px); /* Fixes the Safari warning! */
+  backdrop-filter: blur(4px);
+}
+/* Dashboard Results Panel */
+.fade-in { animation: fadeIn 0.5s ease; }
+
+.nutrition-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.nutrition-title {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.btn-retake {
+  background: none;
+  border: none;
+  color: var(--danger);
+  font-size: 12px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* SVG Ring & Spike Info */
+.result-header-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+
+.ring-wrapper {
+  position: relative;
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ring-number {
+  font-size: 26px;
+  font-weight: 800;
+  z-index: 1;
+}
+
+.spike-title { margin: 0 0 5px 0; font-size: 18px; }
+.spike-subtitle { margin: 0; color: var(--text-muted); font-size: 14px; }
+
+/* Dynamic Progress Bar Section */
+.glucose-load-section { margin-bottom: 30px; }
+.glucose-load-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.advice-title {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* SHAP Clinical Data */
+.shap-section {
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+}
+
+.btn-toggle-shap {
+  background: none;
+  border: none;
+  color: var(--primary-blue);
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+}
+
+.shap-img-wrapper {
+  margin-top: 15px;
+  background: white;
+  border-radius: 12px;
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+}
+
+.shap-img { width: 100%; border-radius: 8px; }
+
+/* =========================================
+   Patient History Log Styling
+   ========================================= */
+
+.history-card {
+  background: rgba(255, 255, 255, 0.85);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
+  animation: fadeIn 0.5s ease;
+}
+
+.history-card h3 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: #333;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 15px;
+}
+
+.history-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 400px; /* Keeps the dashboard from getting infinitely long */
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+/* Custom Scrollbar for the history list */
+.history-list::-webkit-scrollbar {
+  width: 6px;
+}
+.history-list::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+.history-item {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.history-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+}
+
+.history-meta {
+  font-size: 12px;
+  color: var(--text-muted, #888);
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.history-actor-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.actor-ai {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+
+.actor-user {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.history-content {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #444;
+}
